@@ -87,7 +87,7 @@ export async function POST(
         userId: user.id,
       },
       shipping_address_collection: {
-        allowed_countries: ["IN"], // ISO country code for India
+        allowed_countries: ["IN", "US"],
       },
     });
 
